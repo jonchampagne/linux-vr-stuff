@@ -8,4 +8,7 @@ fname='lovr.AppImage'
 wget -qO $fname $url
 chmod +x lovr.AppImage
 
+# Point lovr-playspace to our custom config
+rm -rf lovr-playspace/config
+ln -s ../lovr-playspace-config lovr-playspace/config
 

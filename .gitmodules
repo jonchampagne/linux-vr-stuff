@@ -1,0 +1,3 @@
+[submodule "lovr-playspace"]
+	path = lovr-playspace
+	url = https://github.com/SpookySkeletons/lovr-playspace
